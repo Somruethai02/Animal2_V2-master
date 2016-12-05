@@ -38,13 +38,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
 
             case R.id.textView2:
+                startActivity(new Intent(MainActivity.this, ShowAblum.class));
                 break;
             case R.id.textView3:
-
                 Intent intent = new Intent(MainActivity.this, DetailListView.class);
                 startActivity(intent);
-
-
                 break;
             case R.id.textView4:
                 break;
